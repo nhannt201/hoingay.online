@@ -1,0 +1,30 @@
+RewriteEngine On
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 405 /error.html
+ErrorDocument 400 /error.html
+ErrorDocument 401 /error.html
+ErrorDocument 402 /error.html
+ErrorDocument 500 /error.html
+ErrorDocument 505 /error.html
+ErrorDocument 408 /error.html
+ErrorDocument 503 /error.html
+RewriteRule ^([^/]*)/([^/]*)\.html$ /view.php?v=$1&id=$2 [L]
+RewriteRule "index.html" "index.php"
+RewriteRule "index" "index.php"
+RewriteRule "dang-ky-tai-khoan" "dangky.php"
+RewriteRule "waiting" "xuly.php"
+RewriteRule "dang-nhap" "dangnhap.php"
+RewriteRule "thoat" "logout.php"
+RewriteRule "xem" "xem.php"
+RewriteRule "add" "add.php"
+RewriteRule "view" "view.php"
+RewriteRule "traloi" "cmm.php"
+RewriteRule "@mail" "ref.php"
+RewriteRule "ref-mail" "ref-ml.php"
+RewriteRule "user" "us.php"
+RewriteRule "tim-kiem" "scan.php"
+RewriteRule "timvoihoidap" "tim.php"
+RewriteRule "bbcode" "bbcode2.php"
+
+

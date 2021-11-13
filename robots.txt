@@ -1,0 +1,13 @@
+User-agent: *
+
+Sitemap: https://hoingay.online/sitemap.xml
+Sitemap: https://hoingay.online/xml/sitemap.xml.gz
+Sitemap: https://hoingay.online/xml/sitemap2.xml.gz
+Sitemap: https://hoingay.online/xml/sitemap3.xml.gz
+Sitemap: https://hoingay.online/xml/sitemap4.xml.gz
+Sitemap: https://hoingay.online/xml/sitemap5.xml.gz
+
+Disallow: /m/
+Disallow: /@mail
+Disallow: /help/*
+Disallow: /login/

@@ -1,0 +1,17 @@
+RewriteEngine On
+ErrorDocument 404 /404.html
+RewriteRule "index.html" "index.php"
+RewriteRule "index" "index.php"
+RewriteRule "dang-ky-tai-khoan" "dangky.php"
+RewriteRule "waiting" "xuly.php"
+RewriteRule "dang-nhap" "dangnhap.php"
+RewriteRule "thoat" "logout.php"
+RewriteRule "xem" "xem.php"
+RewriteRule "add" "add.php"
+RewriteRule "view" "view.php"
+RewriteRule "traloi" "cmm.php"
+RewriteRule "@mail" "ref.php"
+RewriteRule "ref-mail" "ref-ml.php"
+RewriteRule "user" "us.php"
+RewriteRule "tim-kiem" "scan.php"
+RewriteRule "timvoihoidap" "tim.php"
